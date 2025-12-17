@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Transforming Nations</title>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body{
+      margin: 0;
+      font-family: Inter, sans-serif;
+      min-height: 100vh;
+      color: #ffffff;
+
+      background:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.75)),
+        url("bg-desktop.jpg") center / cover no-repeat fixed;
+
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 24px;
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px){
+      body{
+        background:
+          linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.75)),
+          url("bg-mobile.jpg") center 20% / cover no-repeat;
+      }
+    }
+
+    .wrapper{
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    h1{
+      margin: 0 0 8px 0;
+      font-size: 28px;
+      font-weight: 800;
+    }
+
+    .subtitle{
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin-bottom: 22px;
+    }
+
+    .links{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    /* BUTTONS */
+    .btn{
+      padding: 16px 18px;
+      border-radius: 14px;
+      background: rgba(200, 235, 255, 0.92);
+      color: #0b1220;
+      font-weight: 700;
+      text-decoration: none;
+      transition:
+        background 0.2s ease,
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    }
+
+    .btn:hover{
+      background: rgba(170, 220, 255, 0.95);
+      transform: translateY(-2px);
+    }
+
+    .btn:active{
+      background: rgba(120, 190, 235, 1);
+      transform: scale(0.97);
+    }
+
+    footer{
+      margin-top: 18px;
+      font-size: 12px;
+      opacity: 0.7;
+    }
+    .btn-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-content img{
+  width: 20px;
+  height: 20px;
+}
+  </style>
+</head>
+
+<body>
+  <main class="wrapper">
+    <h1>Transforming Nations</h1>
+    <div class="subtitle">Renewing Lives — Fulfilling God’s Will</div>
+
+    <!-- ====== ЛІНКИ — МІНЯЄШ ТІЛЬКИ href ====== -->
+    <div class="links">
+
+    <a class="btn" href="https://www.facebook.com/TransformingNations.org" target="_blank">
+  <span class="btn-content">
+    <img src="https://cdn.simpleicons.org/facebook/0866FF" alt="Facebook">
+    Facebook
+  </span>
+</a>
+
+<a class="btn" href="https://transformingnations.tithelysetup2.com/" target="_blank">
+  <span class="btn-content">
+    <img src="https://cdn.simpleicons.org/theplanetarysociety/265475" alt="Website">
+    Our website
+  </span>
+</a>
+
+<a class="btn" href="https://www.instagram.com/transforming_nations/" target="_blank">
+  <span class="btn-content">
+    <img src="https://cdn.simpleicons.org/instagram/FF0069" alt="Instagram">
+    Instagram
+  </span>
+</a>
+
+<a class="btn" href="https://t.me/+Ft6MzTWn_EUxNGU6" target="_blank">
+  <span class="btn-content">
+    <img src="https://cdn.simpleicons.org/telegram/26A5E4" alt="Telegram">
+    Telegram
+  </span>
+</a>
+
+<a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdOHXgSoC4Iw8lram4NRgazlhT0lZqRFPQUK44jQkAKvGdjtA/viewform" target="_blank">
+  <span class="btn-content">
+    <img src="https://cdn.simpleicons.org/fandom/FA005A" alt="Join us">
+    Join us
+  </span>
+</a>
+
+      <a class="btn" href="https://www.youtube.com/@transformingnations" target="_blank">
+  <span class="btn-content">
+    <img src="https://cdn.simpleicons.org/youtube/FF0000" alt="Youtube">
+    YouTube
+  </span>
+</a>
+
+    </div>
+    <!-- ====== КІНЕЦЬ ЛІНКІВ ====== -->
+
+    <footer>© Transforming Nations</footer>
+  </main>
+</body>
+</html>
